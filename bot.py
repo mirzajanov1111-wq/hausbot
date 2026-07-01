@@ -1,6 +1,6 @@
 import os,requests,time,json,threading
 from datetime import datetime
-TOKEN=os.environ.get("BOT_TOKEN","")
+TOKEN="8759300648:AAGkTxZc_tRon-UKwAaagtmJZefnDrdvj9I
 API=f"https://api.telegram.org/bot{TOKEN}"
 subscribers=set()
 price_history=[]
